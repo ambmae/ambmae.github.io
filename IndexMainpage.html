@@ -876,29 +876,20 @@ STEEL ITEMS
               <div role="form" class="wpcf7" id="wpcf7-f147-o1" lang="en-US" dir="ltr">
 <div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
 <form id="submit-form" action="" class="wpcf7-form init">
-<div style="display: none;">
-<input type="hidden" name="_wpcf7" value="147" />
-<input type="hidden" name="_wpcf7_version" value="5.4" />
-<input type="hidden" name="_wpcf7_locale" value="en_US" />
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f147-o1" />
-<input type="hidden" name="_wpcf7_container_post" value="0" />
-<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
-<input type="hidden" name="_wpcf7_recaptcha_response" value="" />
-</div>
 <ul class="row">
-<li class="col-sm-6"> <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="your-name" aria-required="true" aria-invalid="false" placeholder="Full Name*" required /></span>
+<li class="col-sm-6"> <span class="wpcf7-form-control-wrap your-name"><input type="text" name="name" value="" size="40"  id="your-name" aria-required="true" aria-invalid="false" placeholder="Full Name*" required /></span>
                   </li>
 <li class="col-sm-6">
-                     <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" id="your-email" aria-required="true" aria-invalid="false" placeholder="Email*" required /></span>
+                     <span class="wpcf7-form-control-wrap your-email"><input type="email" name="email" value="" size="40"  id="your-email" aria-required="true" aria-invalid="false" placeholder="Email*" required /></span>
                   </li>
 <li class="col-sm-6">
-                    <span class="wpcf7-form-control-wrap your-contact-number"><input type="number" name="your-contact-number" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="your-contact-number" aria-required="true" aria-invalid="false" placeholder="Phone Number*" required /></span>
+                    <span class="wpcf7-form-control-wrap your-contact-number"><input type="number" name="number" value="" size="40"  id="your-contact-number" aria-required="true" aria-invalid="false" placeholder="Phone Number*" required /></span>
                   </li>
 <li class="col-sm-6">
-                     <span class="wpcf7-form-control-wrap datepicker"><input type="text" name="datepicker" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="datepicker" aria-required="true" aria-invalid="false" placeholder="DD/MM/YY" /></span><br />
+                     <span class="wpcf7-form-control-wrap datepicker"><input type="text" name="date" value="" size="40"  id="datepicker" aria-required="true" aria-invalid="false" placeholder="DD/MM/YY" /></span><br />
                     <i class="fa fa-calendar"></i> </li>
 <li class="col-sm-12">
-                     <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control" id="our-message" aria-required="true" aria-invalid="false" placeholder="Message" required></textarea></span>
+                     <span class="wpcf7-form-control-wrap your-message"><textarea name="message" cols="40" rows="10"  id="our-message" aria-required="true" aria-invalid="false" placeholder="Message" required></textarea></span>
                   </li>
 <li class="col-sm-12">
 
@@ -920,7 +911,7 @@ STEEL ITEMS
       $("#submit-form").submit((e)=>{
       e.preventDefault()
       $.ajax({
-      url:"https://script.google.com/macros/s/AKfycbz6J5vnNm1MMgk9aNJpCqnfKdFHimZ0ZfJuQRjtbKcaetjkzllWI5llm0-eBBpOIPozZA/exec",
+      url:"https://script.google.com/macros/s/AKfycbwIXfy0gfVFgZY_oeBDZPPgJfPY1qQmKDWigocbvpvfhCvynNGLZ7IaD_j-deQfzqwN-Q/exec",
       data:$("#submit-form").serialize(),
       method:"post",
       success:function (response){
