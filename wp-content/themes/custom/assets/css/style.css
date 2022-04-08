@@ -2544,7 +2544,7 @@ display:none !important;
 }
 .time-line-sec:before {
 	content: "";
-	background: url(../images/about-img.jpg) center center no-repeat;
+	background: url() center center no-repeat;
 	position: absolute;
 	z-index: 99;
 	height: 100%;
